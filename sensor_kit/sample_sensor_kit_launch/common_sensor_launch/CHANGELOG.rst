@@ -2,6 +2,87 @@
 Changelog for package common_sensor_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.51.0 (2026-05-01)
+-------------------
+* Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+* refactor: replace ament_index_python with launch.substitutions (`#1762 <https://github.com/autowarefoundation/autoware_launch/issues/1762>`_)
+  * refactor: replace ament_index_python with launch.substitutions
+  * flatten nested pathjoinsubstitution
+  ---------
+* feat(autoware_launch, sendor_kit): remove glog component load (`#1778 <https://github.com/autowarefoundation/autoware_launch/issues/1778>`_)
+  * feat: remove glog component load
+  * fix: remove unnecessary import
+  ---------
+* Contributors: Taeseung Sohn, Tetsuhiro Kawaguchi, github-actions
+
+0.50.0 (2026-02-13)
+-------------------
+* Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+* feat: change nebula function call style according to nebula v0.3.2 (`#1749 <https://github.com/autowarefoundation/autoware_launch/issues/1749>`_)
+* Contributors: github-actions, 心刚
+
+0.49.0 (2025-12-30)
+-------------------
+
+0.48.0 (2025-11-16)
+-------------------
+
+0.47.0 (2025-08-11)
+-------------------
+
+0.46.0 (2025-06-20)
+-------------------
+* Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+* feat: add paramter for diag msg (`#1429 <https://github.com/autowarefoundation/autoware_launch/issues/1429>`_)
+  * feat: add paramter for diag msg
+  * chore: update mismatch threshold
+  * chore: udpate variable name
+  * chore: fix parameter naming
+  * chore: add cropbox parameter
+  ---------
+* Contributors: Yi-Hsiang Fang (Vivid), github-actions
+
+0.45.3 (2025-07-17)
+-------------------
+
+0.45.2 (2025-06-28)
+-------------------
+
+0.45.1 (2025-06-27)
+-------------------
+
+0.45.0 (2025-05-22)
+-------------------
+* Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+* feat(ring_outlier_filter): update node parameters (`#1421 <https://github.com/autowarefoundation/autoware_launch/issues/1421>`_)
+* Contributors: Kotaro Uetake, github-actions
+
+0.44.3 (2025-06-10)
+-------------------
+
+0.44.2 (2025-05-30)
+-------------------
+
+0.44.1 (2025-05-12)
+-------------------
+
+0.44.0 (2025-05-01)
+-------------------
+* Merge commit 'bdbc8e8' into bump-up-version-to-0.44.0
+* chore: bump version to 0.44.0 (`#1411 <https://github.com/autowarefoundation/autoware_launch/issues/1411>`_)
+* chore: set all versions to 0.43.0 (`#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>`_)
+* feat(*_launch): move here (`#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>`_)
+* Contributors: Mete Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+
+0.43.1 (2025-04-01)
+-------------------
+* chore: set all versions to 0.43.0 (`#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>`_)
+* feat(*_launch): move here (`#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>`_)
+* Contributors: Mete Fatih Cırıt
+
+0.43.0 (2025-02-12)
+-------------------
+
 0.41.0 (2025-02-12)
 -------------------
 * fix: add `udp_only` (`#109 <https://github.com/autowarefoundation/sample_sensor_kit_launch/issues/109>`_)

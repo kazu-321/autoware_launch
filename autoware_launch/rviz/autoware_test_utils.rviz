@@ -283,22 +283,6 @@ Visualization Manager:
               Width: 550
           Enabled: true
           Name: Vehicle
-        - Class: rviz_plugins/MrmSummaryOverlayDisplay
-          Enabled: false
-          Font Size: 10
-          Left: 512
-          Max Letter Num: 100
-          Name: MRM Summary
-          Text Color: 25; 255; 240
-          Top: 64
-          Topic:
-            Depth: 5
-            Durability Policy: Volatile
-            History Policy: Keep Last
-            Reliability Policy: Reliable
-            Value: /system/emergency/hazard_status
-          Value: false
-          Value height offset: 0
       Enabled: true
       Name: System
     - Class: rviz_common/Group
@@ -1010,7 +994,7 @@ Visualization Manager:
                 Filter size: 10
                 History Policy: Keep Last
                 Reliability Policy: Reliable
-                Value: /planning/scenario_planning/trajectory
+                Value: /planning/trajectory
               Value: true
               View Footprint:
                 Alpha: 1
@@ -2127,18 +2111,6 @@ Visualization Manager:
                           Value: true
                         - Class: rviz_default_plugins/MarkerArray
                           Enabled: true
-                          Name: VirtualWall (RunOut)
-                          Namespaces:
-                            {}
-                          Topic:
-                            Depth: 5
-                            Durability Policy: Volatile
-                            History Policy: Keep Last
-                            Reliability Policy: Reliable
-                            Value: /planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/virtual_wall/run_out
-                          Value: true
-                        - Class: rviz_default_plugins/MarkerArray
-                          Enabled: true
                           Name: VirtualWall (SpeedBump)
                           Namespaces:
                             {}
@@ -2284,18 +2256,6 @@ Visualization Manager:
                             History Policy: Keep Last
                             Reliability Policy: Reliable
                             Value: /planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/no_stopping_area
-                          Value: false
-                        - Class: rviz_default_plugins/MarkerArray
-                          Enabled: false
-                          Name: RunOut
-                          Namespaces:
-                            {}
-                          Topic:
-                            Depth: 5
-                            Durability Policy: Volatile
-                            History Policy: Keep Last
-                            Reliability Policy: Reliable
-                            Value: /planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/run_out
                           Value: false
                         - Class: rviz_default_plugins/MarkerArray
                           Enabled: false
@@ -3350,7 +3310,6 @@ Visualization Manager:
                   Value: true
                 System:
                   Grid: true
-                  MRM Summary: true
                   TF: true
                   Value: false
                   Vehicle:
@@ -4440,7 +4399,7 @@ Visualization Manager:
       Velocity: 0
       X std deviation: 0.029999999329447746
       Y std deviation: 0.029999999329447746
-      Z position: 1
+      Z position: 0
       Z std deviation: 0.029999999329447746
     - Acceleration: 0
       Class: rviz_plugins/CarInitialPoseTool
